@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="AmazonApplication">
+
+   <test name="AmazonTest" >
+       <classes>
+           <class name="AmazonTest.AmazonPageObject">
+           <methods>
+          <include name="success1"/>
+          <include name="success2"/>
+          <include name="success3"/>
+          <include name="signin"/>
+          <include name="search"/>
+          <include name="select"/>
+        </methods>
+           </class>
+       </classes>
+   </test>
+</suite>
